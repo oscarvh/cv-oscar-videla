@@ -15,6 +15,7 @@ export default defineConfig({
       removeCommentes:true
     })
   ],
+  base:"/cv-oscar-videla/",
   build: {
     outDir,
     emptyOutDir:true,
