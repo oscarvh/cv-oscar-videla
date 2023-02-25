@@ -1,0 +1,185 @@
+li {
+    list-style-type: square;
+    padding-left: 5px;
+  }
+  
+  .h-200 {
+    height: 200px;
+  }
+  
+  .h-100 {
+    height: 100px;
+  }
+  
+  .h-50 {
+    height: 50px;
+  }
+  
+  .h-100vh {
+    min-height: 100vh;
+  }
+  
+  .h-progres {
+    height: 10px;
+  }
+  
+  .perfil {
+    width: 180px;
+  
+  }
+  ul.horizontal {
+    padding-left: 0px;
+    
+  
+  }
+  ul.horizontal > li {
+    display: inline-block;
+    padding: 5px 2px;
+  }
+  
+  
+  .btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    transition: width 300ms linear 50ms;
+  }
+  
+  .btn-circle.btn-xl:hover {
+    width: 90px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    transition: width 222ms ease-out;
+    z-index: 1000;
+  
+  }
+  
+  
+  @media (max-width: 576px) {
+    .botones {
+      /* position: sticky; */
+      display: inline-block;
+      background-color: #000000;
+      z-index: 1025;
+    }
+  
+    .h-200 {
+      height: auto;
+    }
+  
+    .h-100 {
+      height: auto;
+    }
+  
+    .h-50 {
+      height: auto;
+    }
+  
+    .inicio {
+      display: none;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width: 200px) {
+    .botones {
+      width: 100%;
+      padding: 2% 2% 2% 2%;
+      background-color: #000000;
+      z-index: 1025;
+    }
+  
+    .inicio {
+      display: none;
+    }
+  
+    .h-200 {
+      height: auto;
+    }
+  
+    .h-100 {
+      height: auto;
+    }
+  
+    .h-50 {
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 769px) {
+  
+    .botones {
+      padding: 2% 2% 2% 2%;
+      background-color: #fff;
+      z-index: 1025;
+    }
+  }
+  
+  @media print {
+  
+   
+    h1 { 
+      margin: 0;
+      padding: 0;
+      font-size: 26pt;
+    }
+  
+    h2 {
+      font-size: 18pt;
+  
+    }
+  
+    h3 {
+      font-size: 14pt;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+  
+    h4 {
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+  
+    .display-2 {
+      font-size: 18pt;
+    }
+    #content {
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    
+   
+    ul.horizontal {
+      padding-left: 0px;
+     
+    }
+    ul.horizontal > li {
+      display: inline-block;
+      padding: 5px 2px;
+    }
+  
+  
+    p {
+      font-family: verdana, arial, sans-serif;
+      font-size: 10pt;
+      margin: 0px !important;
+      padding: 0px !important;
+  
+    }
+  
+  
+    li {
+      font-size: 10pt;
+      margin: 0px;
+      padding: 0px;
+    }
+    
+  
+  }
